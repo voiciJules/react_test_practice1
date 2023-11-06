@@ -14,14 +14,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
   },
   "browserslist": {
     "production": [
@@ -34,5 +28,15 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "eslintConfig" : {
+    "extends": [
+      "react-app",
+      "react-app/jest"]
+  },
+  "devDependencies": {
+    "eslint-plugin-jest-dom": "^5.1.0",
+    "eslint-plugin-testing-library": "^6.1.0",
+    "jest": "^27.5.1"
   }
 }
