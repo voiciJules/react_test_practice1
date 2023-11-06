@@ -29,7 +29,7 @@ function App() {
       <button
         data-testid="on/off-button"
         onClick={() => setDisabled(!disabled)}
-        style={{ backgroundColor: "blue" }}
+        style={{ backgroundColor: "blue", color: "white" }}
       >
         on/off
       </button>
