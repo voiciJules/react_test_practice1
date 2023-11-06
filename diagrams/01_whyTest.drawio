@@ -1,0 +1,22 @@
+<mxfile host="app.diagrams.net" modified="2023-11-01T13:39:00.418Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="Suh4pH8IneCiHjwpmlcx" version="22.0.8" type="google">
+  <diagram name="페이지-1" id="Kb7dw38zIa904vEZhoao">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="E-vmuc9oa9b4P54_3SPw-1" value="test? Why?" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="210" y="40" width="390" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="E-vmuc9oa9b4P54_3SPw-2" value="Testing in various ways can make the application more stable." style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="120" y="120" width="600" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="E-vmuc9oa9b4P54_3SPw-3" value="what is the advantage of doing test?" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="120" y="200" width="600" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="E-vmuc9oa9b4P54_3SPw-5" value="&lt;div style=&quot;font-size: 19px;&quot;&gt;&lt;div&gt;1. Shorten debugging time. If a testing environment is established, specific bugs can be easily found through unit testing.&lt;/div&gt;&lt;div&gt;2. More stable application&lt;/div&gt;&lt;div&gt;3. Shorten redesign time&lt;/div&gt;&lt;div&gt;4. Easy to maintain&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;align=left;perimeterSpacing=2;" vertex="1" parent="1">
+          <mxGeometry x="120" y="280" width="600" height="130" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

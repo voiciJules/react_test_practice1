@@ -1,0 +1,147 @@
+<mxfile host="app.diagrams.net" modified="2023-11-06T18:05:09.230Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="rkt2NBBp9_kmXJMy2xJq" version="22.0.8" type="google">
+  <diagram name="페이지-1" id="FOmODyFJtkxs_gLhhyXh">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="oq766--k9L1ZF-ME5DQQ-1" value="테스팅에 도움을 주는 모듈 설치" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="230" y="40" width="310" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oq766--k9L1ZF-ME5DQQ-2" value="테스팅을 할 때 matcher를 알맞게 쓰는지 확신이 들지 않을 때가 있으며, 코드의 형식이나 자바스크립트 문법 등을 올바르게 쓰지 못할 때가 있다. 그러한 부분을 도와주는 모듈을 설치해보자." style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="80" y="100" width="680" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="oq766--k9L1ZF-ME5DQQ-3" value="ESLint" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="80" y="250" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oq766--k9L1ZF-ME5DQQ-4" value="Prettier" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="500" y="250" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oq766--k9L1ZF-ME5DQQ-5" value="개발자들이 특정한 규칙을 가지고 코드를 깔끔하게 짤 수 있게 도와주는 라이브러리. 자바스크립트를 쓰는 가이드라인 제시, 문법에 오류가 나면 알려주는 역할 등등. ESLint는 formatter 역할도 하지만 주요 기능은 문법 오류를 잡는 것이다.&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="40" y="320" width="260" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="oq766--k9L1ZF-ME5DQQ-6" value="주로 코드형식을 맞추는데 사용된다. 작은 따옴표를 사용할지 큰 따옴표를 사용할지, indent 값을 2로 할지 4로 할지 등등. 에러를 찾는 것이 아닌 코드 포맷터의 역할을 한다.&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="440" y="320" width="270" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="oq766--k9L1ZF-ME5DQQ-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;fontColor=default;" edge="1" parent="1" source="oq766--k9L1ZF-ME5DQQ-7" target="oq766--k9L1ZF-ME5DQQ-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oq766--k9L1ZF-ME5DQQ-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;fontColor=default;" edge="1" parent="1" source="oq766--k9L1ZF-ME5DQQ-7" target="oq766--k9L1ZF-ME5DQQ-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oq766--k9L1ZF-ME5DQQ-7" value="ESLint 익스텐션 설치" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="60" y="600" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oq766--k9L1ZF-ME5DQQ-8" value="이미 cra로 리액트 설치시 기본 eslint 설정되어 있지만 이 상태로는 vs code에서 바로 에러를 확인할 수 없고 앱을 시작했을 때 터미널 상에서 볼 수 있다.&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="360" y="600" width="370" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="oq766--k9L1ZF-ME5DQQ-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;fontColor=default;" edge="1" parent="1" source="oq766--k9L1ZF-ME5DQQ-9" target="oq766--k9L1ZF-ME5DQQ-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oq766--k9L1ZF-ME5DQQ-9" value="eslint 설정파일 생성, package.json에 eslintConfig 부분을 지우고 .eslintrc.json 파일을 생성한다. 이렇게 함으로써 problems 탭에서 ESLint에서 주는 기본적인 경고들을 확인할 수 있다.&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="60" y="670" width="220" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="oq766--k9L1ZF-ME5DQQ-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;fontColor=default;" edge="1" parent="1" source="oq766--k9L1ZF-ME5DQQ-10" target="oq766--k9L1ZF-ME5DQQ-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oq766--k9L1ZF-ME5DQQ-10" value="이제는 Testing을 도와주는 ESLint를 설치해보자." style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="60" y="940" width="220" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="oq766--k9L1ZF-ME5DQQ-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;fontColor=default;" edge="1" parent="1" source="oq766--k9L1ZF-ME5DQQ-11" target="oq766--k9L1ZF-ME5DQQ-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oq766--k9L1ZF-ME5DQQ-11" value="ESLint Testing Plugin 설치" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="30" y="1060" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oq766--k9L1ZF-ME5DQQ-12" value="ESLint Testing Plugin이란?&lt;br&gt;ESLint에서 기본으로 제공하지 않는 다양한 규칙을 플러그인을 통해 사용할 수 있다. 예를 들어, 리액트에 관련된 린트 설정을 위해서는 eslint-plugin-react를 사용하면 되며, react hooks에 관련된 규칙을 적용시켜주려면 eslint-plugin-react-hooks를 사용하면 된다.&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="350" y="960" width="450" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="oq766--k9L1ZF-ME5DQQ-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;fontColor=default;" edge="1" parent="1" source="oq766--k9L1ZF-ME5DQQ-13" target="oq766--k9L1ZF-ME5DQQ-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oq766--k9L1ZF-ME5DQQ-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;fontColor=default;" edge="1" parent="1" source="oq766--k9L1ZF-ME5DQQ-13" target="oq766--k9L1ZF-ME5DQQ-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oq766--k9L1ZF-ME5DQQ-13" value="npm install eslint-plugin-testing-library&amp;nbsp;&lt;br&gt;eslint-plugin-jest-dom&lt;br&gt;--save-dev" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="30" y="1160" width="250" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="oq766--k9L1ZF-ME5DQQ-14" value="testing-library : render로 dom 그리는 부분&lt;br&gt;jest-dom : expect-matcher로 테스트" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="350" y="1160" width="400" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="oq766--k9L1ZF-ME5DQQ-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;fontColor=default;" edge="1" parent="1" source="oq766--k9L1ZF-ME5DQQ-15" target="oq766--k9L1ZF-ME5DQQ-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oq766--k9L1ZF-ME5DQQ-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;fontColor=default;" edge="1" parent="1" source="oq766--k9L1ZF-ME5DQQ-15" target="oq766--k9L1ZF-ME5DQQ-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oq766--k9L1ZF-ME5DQQ-15" value="내부 설정해주기&lt;br&gt;&lt;br&gt;plugins 항목 : &lt;br&gt;플러그인 추가.&amp;nbsp;&lt;br&gt;추가시 eslint-plugin- 부분은 생략가능&lt;br&gt;&lt;br&gt;extents 항목 :&amp;nbsp;&lt;br&gt;플러그인을 추가한 후에 규칙을 정해줘야 사용가능하므로 extends 항목에 사용하고자 하는 규칙을 나열합니다.&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="30" y="1300" width="330" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="oq766--k9L1ZF-ME5DQQ-16" value=".eslintrc.json 파일&lt;br&gt;&lt;br&gt;&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; line-height: 18px;&quot;&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;  &quot;plugins&quot;: [&lt;span style=&quot;color: #ce9178;&quot;&gt;&quot;testing-library&quot;&lt;/span&gt;, &lt;span style=&quot;color: #ce9178;&quot;&gt;&quot;jest-dom&quot;&lt;/span&gt;],&lt;/div&gt;&lt;div&gt;  &lt;span style=&quot;color: #9cdcfe;&quot;&gt;&quot;extends&quot;&lt;/span&gt;: [&lt;/div&gt;&lt;div&gt;    &lt;span style=&quot;color: #ce9178;&quot;&gt;&quot;react-app&quot;&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;    &lt;span style=&quot;color: #ce9178;&quot;&gt;&quot;react-app/jest&quot;&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;    &lt;span style=&quot;color: #ce9178;&quot;&gt;&quot;plugin:testing-library/react&quot;&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;    &lt;span style=&quot;color: #ce9178;&quot;&gt;&quot;plugin:jest-dom/recommended&quot;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;  ]&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="414" y="1297" width="330" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="oq766--k9L1ZF-ME5DQQ-17" value="Lint 가 잘 동작하는지 확인" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="30" y="1620" width="330" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oq766--k9L1ZF-ME5DQQ-19" value="Prettier 설치 및 설정" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1780" width="590" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oq766--k9L1ZF-ME5DQQ-20" value="Prettier는 코드 형식을 맞추는데 사용한다." style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1850" width="590" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="oq766--k9L1ZF-ME5DQQ-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;fontColor=default;" edge="1" parent="1" source="oq766--k9L1ZF-ME5DQQ-21" target="oq766--k9L1ZF-ME5DQQ-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oq766--k9L1ZF-ME5DQQ-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;fontColor=default;" edge="1" parent="1" source="oq766--k9L1ZF-ME5DQQ-21" target="oq766--k9L1ZF-ME5DQQ-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oq766--k9L1ZF-ME5DQQ-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;fontColor=default;" edge="1" parent="1" source="oq766--k9L1ZF-ME5DQQ-21" target="oq766--k9L1ZF-ME5DQQ-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oq766--k9L1ZF-ME5DQQ-21" value="Prettier 설치" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1950" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="oq766--k9L1ZF-ME5DQQ-22" value="npm 설치" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="300" y="1950" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="oq766--k9L1ZF-ME5DQQ-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;fontColor=default;" edge="1" parent="1" source="oq766--k9L1ZF-ME5DQQ-23" target="oq766--k9L1ZF-ME5DQQ-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="520" y="2060" />
+              <mxPoint x="520" y="2060" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oq766--k9L1ZF-ME5DQQ-23" value="vscode 익스텐셜 설치" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="300" y="2030" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="oq766--k9L1ZF-ME5DQQ-24" value="여러 개발자와 같은 포맷 유지하기에 더 유리" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="540" y="1950" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oq766--k9L1ZF-ME5DQQ-25" value="혼자서 설치해서 사용하기 좋음" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="540" y="2030" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oq766--k9L1ZF-ME5DQQ-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;fontColor=default;" edge="1" parent="1" source="oq766--k9L1ZF-ME5DQQ-26" target="oq766--k9L1ZF-ME5DQQ-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oq766--k9L1ZF-ME5DQQ-26" value="익스텐션으로 설치" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="40" y="2120" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="oq766--k9L1ZF-ME5DQQ-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.048;entryY=0.417;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;fontColor=default;" edge="1" parent="1" source="oq766--k9L1ZF-ME5DQQ-22" target="oq766--k9L1ZF-ME5DQQ-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oq766--k9L1ZF-ME5DQQ-32" value="익스텐션으로 설정" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="40" y="2200" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="oq766--k9L1ZF-ME5DQQ-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.477;entryY=-0.009;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;fontColor=default;" edge="1" parent="1" source="oq766--k9L1ZF-ME5DQQ-3" target="oq766--k9L1ZF-ME5DQQ-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oq766--k9L1ZF-ME5DQQ-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.526;entryY=0.011;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;fontColor=default;" edge="1" parent="1" source="oq766--k9L1ZF-ME5DQQ-4" target="oq766--k9L1ZF-ME5DQQ-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oq766--k9L1ZF-ME5DQQ-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.002;entryY=0.706;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;fontColor=default;" edge="1" parent="1" source="oq766--k9L1ZF-ME5DQQ-11" target="oq766--k9L1ZF-ME5DQQ-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

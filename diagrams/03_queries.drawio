@@ -1,0 +1,31 @@
+<mxfile host="app.diagrams.net" modified="2023-11-02T02:36:01.273Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="vdr0dcdDOrBfMgNpiy5t" version="22.0.8" type="google">
+  <diagram name="페이지-1" id="YARPRC77gt4IM3SaqAKJ">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="mscHq_srBqh7eXsAOqAP-1" value="query function" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="240" y="40" width="300" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mscHq_srBqh7eXsAOqAP-2" value="https://testing-library.com/docs/queries/about/" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="160" y="120" width="490" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mscHq_srBqh7eXsAOqAP-3" value="Queries are the methods that Testing Library gives you to find elements on the page. There are several types of queries(&#39;get&#39;, &#39;find&#39;, &#39;query&#39;); the difference between them is whether the query will throw an error if no element is found or if it will return a Promise and retry. Depending on what page content you are selecting, different queries may be more or less appropriate." style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="80" y="200" width="680" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="mscHq_srBqh7eXsAOqAP-4" value="&#39;getBy&#39;&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Returns the matching node for a query, and throw a descriptive error if no elements match or if more than one match is found(use &#39;getAllBy&#39; instead if more than one element is expected&lt;/span&gt;&lt;font face=&quot;Source Sans Pro, sans-serif&quot; color=&quot;#e3e3e3&quot;&gt;&lt;span style=&quot;font-size: 18px; background-color: rgb(27, 27, 29);&quot;&gt;.&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;align=center;" vertex="1" parent="1">
+          <mxGeometry x="20" y="400" width="240" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="mscHq_srBqh7eXsAOqAP-5" value="&#39;queryBy&#39;&lt;br&gt;Returns the matching node for a query, and return null if no elements match. This is useful for asserting an element that is not present. Throws an error if more than one match is found(use &#39;queryAllBy&#39; instead if this is Ok." style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="294" y="400" width="240" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="mscHq_srBqh7eXsAOqAP-6" value="&#39;findBy&#39;&lt;br&gt;Returns a Promise which resolves when an element is found which matches the given query. The promise is rejected if no element is found or if more than one element is found after a default timeout of 1000ms. If you need to find more than one element, use &#39;findAllBy&#39;.&lt;br&gt;&lt;br&gt;getBy + waitFor = findBy" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="568" y="402" width="240" height="278" as="geometry" />
+        </mxCell>
+        <mxCell id="mscHq_srBqh7eXsAOqAP-7" value="&#39;waitFor&#39;&lt;br&gt;Async APIs like waitFor or findBy queries can be used to await the changes in the DOM." style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;align=center;" vertex="1" parent="1">
+          <mxGeometry x="20" y="600" width="240" height="110" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
